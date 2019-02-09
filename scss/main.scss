@@ -1,0 +1,85 @@
+$bg-color: #fff;
+$color: #000007;
+$primary: #6e8de2;
+$danger: #f5423c;
+$warning: #f1d42b;
+$teal: #3cd649;
+$grey: #adacac;
+
+body {
+    background: $bg-color;
+    color: $color;
+    margin: 0;
+}
+.wrap {
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+}
+.card {
+    width: 330px;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 $grey;
+    transition: 0.4s;
+    background: $bg-color;
+    font-size: 16px;
+    font-family: sans-serif;
+    float: left;
+    margin: 10px;
+    .card-image {
+        width: 100%;
+        height: 300px;
+    }
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+.store {
+    color: $grey;
+}
+.container {
+    padding: 2px 16px;
+    .store1,.store2 {
+        font-weight: bold;
+        font-size: 0.9em;
+    }
+    .store1 del {
+        color: $danger;
+    }
+    .store1 span {
+        color: $teal;
+    }
+    .store2 span {
+        color: $grey;
+    }
+    .item {
+        font-size: 0.9em;
+        font-weight: 400;
+        color: $grey;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        img {
+            width: 15px;
+            height: 20px;
+            padding-right: 5px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: $grey;
+            text-align: center;
+            padding: 5px;
+            text-decoration: none;
+        }
+    }
+}

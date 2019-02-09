@@ -1,0 +1,22 @@
+{
+  "name": "scartch-html-css",
+  "version": "1.0.0",
+  "description": "my scratch great ui",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/widayat12/scartch-html-css-js.git"
+  },
+  "author": "widayat tri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/widayat12/scartch-html-css-js/issues"
+  },
+  "homepage": "https://github.com/widayat12/scartch-html-css-js#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

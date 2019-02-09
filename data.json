@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Experience The Beauty of Cappadocia, Turkey Experience. 4 Days 3 Night",
+    "currency": "IDR",
+    "price": 20000000,
+    "discount": 20,
+    "image": "turkey.jpg",
+    "views": 12388,
+    "likes": 84,
+    "sold": 15
+  },
+  {
+    "id": 2,
+    "title": "Oia-Santorini, Vacations. 3D2N",
+    "currency": "IDR",
+    "price": 20000000,
+    "discount": 0,
+    "image": "greece.jpg",
+    "views": 232,
+    "likes": 12,
+    "sold": 1
+  }
+]

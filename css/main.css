@@ -1,0 +1,65 @@
+body {
+  background: #fff;
+  color: #000007;
+  margin: 0; }
+
+.wrap {
+  width: 700px;
+  margin: auto;
+  margin-top: 100px; }
+
+.card {
+  width: 330px;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 #adacac;
+  transition: 0.4s;
+  background: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  float: left;
+  margin: 10px; }
+  .card .card-image {
+    width: 100%;
+    height: 300px; }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6); }
+
+.store {
+  color: #adacac; }
+
+.container {
+  padding: 2px 16px; }
+  .container .store1, .container .store2 {
+    font-weight: bold;
+    font-size: 0.9em; }
+  .container .store1 del {
+    color: #f5423c; }
+  .container .store1 span {
+    color: #3cd649; }
+  .container .store2 span {
+    color: #adacac; }
+  .container .item {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #adacac;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px; }
+    .container .item img {
+      width: 15px;
+      height: 20px;
+      padding-right: 5px; }
+    .container .item ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden; }
+    .container .item li {
+      float: left; }
+    .container .item li a {
+      display: block;
+      color: #adacac;
+      text-align: center;
+      padding: 5px;
+      text-decoration: none; }
