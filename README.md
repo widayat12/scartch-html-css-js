@@ -1,2 +1,4 @@
 # scartch-html-css-js
-test
+# test
+# npm install
+# npm run sass
